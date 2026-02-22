@@ -15,6 +15,8 @@ namespace Config
         public static readonly int Die = Animator.StringToHash("Die");
         public static readonly int Parry = Animator.StringToHash("Parry");
         public static readonly int Roll = Animator.StringToHash("Roll");
-    
+        public static readonly int Combo = Animator.StringToHash("Combo");
+        public static readonly int CanCombo = Animator.StringToHash("CanCombo");
+
     }
 }
