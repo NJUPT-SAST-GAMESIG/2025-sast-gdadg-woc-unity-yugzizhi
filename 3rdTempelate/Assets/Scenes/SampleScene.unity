@@ -180,7 +180,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 8400000, guid: e0568fbbedf35534282dbf16232ed9df, type: 2}
+  m_Texture: {fileID: 8400000, guid: 03958654a5490bc46b5e5a6db7f90336, type: 2}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -822,7 +822,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: fc20a0a163a1e5140bdf647bcbfef5e2, type: 2}
+  - {fileID: 2100000, guid: 69c3e134278e8a04e890412c5631168c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1368,7 +1368,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 1024
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 8400000, guid: e0568fbbedf35534282dbf16232ed9df, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 03958654a5490bc46b5e5a6db7f90336, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
@@ -1682,8 +1682,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e660a4ce3e2fc64e8e414eb06eadb27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mapMaterial: {fileID: 2100000, guid: d652bdca3d96ad14e91ef71c8c72410b, type: 2}
-  minLineLength: 0
+  mapMaterial: {fileID: 2100000, guid: 2ed36727319d30c4a96326d308aaad64, type: 2}
 --- !u!4 &2028801568
 Transform:
   m_ObjectHideFlags: 0

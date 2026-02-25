@@ -6,7 +6,6 @@ public class NavMeshControl : MonoBehaviour
 {
     [SerializeField] private Material mapMaterial;
     private int mapLayerIndex = 10;
-    [SerializeField] private float minLineLength;
 
     void Start()
     {
