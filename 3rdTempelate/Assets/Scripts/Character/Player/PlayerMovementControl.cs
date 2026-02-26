@@ -3,6 +3,7 @@ using Config;
 using Input;
 using Tools;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.Serialization;
 using System.Collections.Generic;
 
@@ -78,6 +79,10 @@ namespace Character.Player
 
         protected override void Update()
         {
+            if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
+            {
+                return;
+            }
             base.Update();
             OnLockUpdateXY();
             PreInputATK();

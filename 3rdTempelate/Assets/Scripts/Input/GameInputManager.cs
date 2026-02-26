@@ -27,9 +27,10 @@ namespace Input
         public bool ExecuteParry => _gameInputAction.GameInput.Parry.triggered;
     
         public bool LockEnemy => _gameInputAction.GameInput.LockEnemy.triggered;
-    
-    
-    
+
+
+
+
         protected override void Awake()
         {
             if (_gameInputAction == null)
