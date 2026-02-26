@@ -2,10 +2,18 @@ using UnityEngine;
 
 public class InventoryOpenController : MonoBehaviour
 {
+    public static InventoryOpenController Instance;
+
     [SerializeField] private GameObject Inventory;
     [SerializeField] private InventoryUIManager inventoryUIManager;
 
     private bool isInventoryOpen = false;
+    public bool IsInventoryOpen => isInventoryOpen;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
 
     void Update()
     {

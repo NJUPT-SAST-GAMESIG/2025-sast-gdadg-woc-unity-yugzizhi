@@ -24,14 +24,20 @@ namespace CameraController
 
         private void Update()
         {
-            if(lookTarget == null)
+            //防止回弹
+            if (InventoryOpenController.Instance != null && InventoryOpenController.Instance.IsInventoryOpen)
+            {
+                return;
+            }
+
+            if (lookTarget == null)
                 return;
             CameraInput();
         }
 
         private void LateUpdate()
         {
-            if(lookTarget == null)
+            if (lookTarget == null)
                 return;
             UpdateCameraRotation();
             CameraPosition();
